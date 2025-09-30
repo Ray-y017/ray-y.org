@@ -47,6 +47,8 @@ z-index: 100;
 .menudiv {
     background-color: #222222ab;
     position: fixed;
+    transition: all 0.4s;
+    z-index: 99;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     backdrop-filter: blur(10px) brightness(0.8);
 
