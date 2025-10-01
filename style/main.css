@@ -1,8 +1,8 @@
 body {
-      background: rgb(22, 22, 22);
-  background-image: radial-gradient(rgb(32, 32, 32) 1px, transparent 0);
-  background-size: 40px 40px;
-  background-position: -19px -19px;
+    background: rgb(22, 22, 22);
+    background-image: radial-gradient(rgb(32, 32, 32) 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
     margin: 0;
     font-family: arial;
     height: 100000px;
@@ -14,7 +14,7 @@ body {
 
     backdrop-filter: blur(10px) brightness(0.8);
 
-z-index: 100;
+    z-index: 100;
 
     position: fixed;
     width: 100%;
@@ -110,7 +110,7 @@ z-index: 100;
     background-color: #0f0f0f;
     box-shadow: rgba(66, 66, 66, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     margin: auto;
-    margin-top:20px;
+    margin-top: 20px;
     padding: 5px;
     border-radius: 30px;
     max-width: 40%;
@@ -172,18 +172,18 @@ z-index: 100;
 hr {
     width: 80%;
     color: #0e0e0e;
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 25px;
     border-radius: 50px;
 }
 
 
 .marquee {
-  width: 60%;
-  margin: 0 auto;
-  overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .marquee img {
@@ -194,36 +194,41 @@ hr {
 
 
 .marquee span {
-  display: inline-block;
-  width: max-content;
+    display: inline-block;
+    width: max-content;
 
-  padding-left: 100%;
-  will-change: transform;
-  animation: marquee 15s linear infinite;
+    padding-left: 100%;
+    will-change: transform;
+    animation: marquee 15s linear infinite;
 }
 
 
 
 @keyframes marquee {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(-100%, 0); }
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
 }
 
 
 @media (prefers-reduced-motion: reduce) {
-  .marquee span {
-    animation-iteration-count: 1;
-    animation-duration: 0.01; 
-    width: auto;
-    padding-left: 0;
-  }
+    .marquee span {
+        animation-iteration-count: 1;
+        animation-duration: 0.01;
+        width: auto;
+        padding-left: 0;
+    }
 }
 
 
 .socials {
-  display: inline-grid;
-  margin-right: 0px;
-  grid-template-columns: auto auto;
+    display: inline-grid;
+    margin-right: 0px;
+    grid-template-columns: auto auto;
     gap: 25px;
 }
 
@@ -232,5 +237,19 @@ hr {
 }
 
 .social-a:hover {
-     transform: scale(1.13);
+    transform: scale(1.13);
+}
+
+
+.interest {
+    color:#7f50ff;
+    cursor: default;
+    width: auto;
+    transition-timing-function: ease-in-out;
+    transition: 0.3s;
+    font-family: Bruno Ace
+}
+
+.interest:hover {
+    color: rgb(165, 104, 223)
 }
