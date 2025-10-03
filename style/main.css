@@ -5,7 +5,6 @@ body {
     background-position: -19px -19px;
     margin: 0;
     font-family: arial;
-    height: 100000px;
 }
 
 .navigation {
@@ -252,4 +251,26 @@ hr {
 
 .interest:hover {
     color: rgb(165, 104, 223)
+}
+
+.footer {
+    background-color: #0e0e0e;
+    padding-bottom: 30px;
+    margin-top:30px;
+    padding: 10px;
+}
+
+.footer-img {
+    padding-top: 20px
+}
+.footer .head {
+    color: gray;
+        font-family: "Press Start 2P";
+    cursor: default;
+    transition: 0.3s ;
+}
+.footer .head:hover {
+    color: rgb(255, 255, 255);
+
+
 }
