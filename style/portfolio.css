@@ -1,0 +1,26 @@
+.returnBtn {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.webImg {
+    max-width: 40%;
+    border-radius: 10px;
+    filter: drop-shadow(0px -1px 5px #00000087);
+}
+
+.webContainer {
+    padding:10px;
+}
+
+.webDesc {
+    color:white;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .webImg {
+        max-width: 70%;
+    }
+}

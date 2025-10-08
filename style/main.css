@@ -247,7 +247,14 @@ body {
     width: auto;
     transition-timing-function: ease-in-out;
     transition: 0.3s;
-    font-family: Bruno Ace
+    font-family: lexend;
+}
+
+.interest-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
+    text-align:unset;
 }
 
 .interest:hover {
