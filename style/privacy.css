@@ -1,0 +1,11 @@
+.contact-link {
+    text-decoration: none;
+    color:rgb(114, 114, 236);
+}
+.contact-link:hover {
+    color: aliceblue;
+}
+
+.link {
+    color:white;
+}
