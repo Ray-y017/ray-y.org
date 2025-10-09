@@ -14,6 +14,5 @@ function toggleMenu()  {
 document.addEventListener('click', (event) => {
   if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
     menu.style.display = 'none';
-    console.log("debug")
   }
 });
