@@ -274,7 +274,7 @@ body {
 }
 .footer .head {
     color: gray;
-    font-family: Comfortaa;
+    font-family: Lexend;
     cursor: default;
     transition: 0.3s;
 }
@@ -295,7 +295,7 @@ body {
     margin-right: 5px;
     transition: 0.4s;
     margin-left: 5px;
-    font-family: Comfortaa;
+    font-family: Lexend;
     text-decoration: none;
 }
 
