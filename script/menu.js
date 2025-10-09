@@ -1,8 +1,8 @@
 var toggledOn = false;
-
+const menu = document.getElementById("menu-items");
+const menuButton = document.getElementById('menuBtn');
 
 function toggleMenu()  {
-    const menu = document.getElementById("menu-items");
     if (toggledOn) {
         menu.style.display = 'none'
         toggledOn = false;
@@ -11,3 +11,9 @@ function toggleMenu()  {
         toggledOn = true;
     }
 }
+document.addEventListener('click', (event) => {
+  if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
+    menu.style.display = 'none';
+    console.log("debug")
+  }
+});
