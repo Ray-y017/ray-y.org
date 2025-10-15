@@ -51,7 +51,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     backdrop-filter: blur(10px) brightness(0.8);
 
-    animation: fade_in_show 0.5s;
+    animation: fade_in_show 0.2s;
 
     padding: 5px;
     color: white;
@@ -65,7 +65,7 @@ body {
 @keyframes fade_in_show {
     0% {
         opacity: 0;
-        transform: scale(0.7)
+        transform: scale(0.9)
     }
 
     100% {
