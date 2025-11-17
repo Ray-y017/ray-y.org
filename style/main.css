@@ -1,11 +1,18 @@
 body {
     background: rgb(22, 22, 22);
-    background-image: radial-gradient(rgb(32, 32, 32) 1px, transparent 0);
+    background-image: radial-gradient(rgb(36, 36, 36) 1px, transparent 0);
+    animation: bgAnim 50s infinite linear;
     background-size: 40px 40px;
-    background-position: -19px -19px;
+    background-position: 0 0;
     margin: 0;
     font-family: arial;
 }
+
+@keyframes bgAnim {
+    0% { background-position: 0 0; } 
+    100% { background-position: 100% 100%; } 
+}
+
 
 .navigation {
     background-color: #0f0f0f49;
@@ -199,16 +206,12 @@ body {
     width: 60%;
     margin: 0 auto;
     overflow: hidden;
-
     box-sizing: border-box;
 }
 
 .marquee img {
     margin-left: 15px;
 }
-
-
-
 
 .marquee span {
     display: inline-block;
