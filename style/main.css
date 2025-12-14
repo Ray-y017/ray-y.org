@@ -1,3 +1,12 @@
+/*
+ray-y.co.uk © 2025 Ray Dunn
+
+This source code is licensed under the terms of GPL-2.0
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+*/ 
+
+
 body {
     background: rgb(22, 22, 22);
     background-image: radial-gradient(rgb(36, 36, 36) 1px, transparent 0);
@@ -360,6 +369,27 @@ body {
      left: 0.5em;
      margin-right: -50%;
  }
+
+
+.alert {
+    animation: alertAnim 0.5s ease-in;
+    color:#f39090
+}
+
+
+@keyframes alertAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+        color:rgb(255, 255, 255);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        color:f39090
+    }
+    
+}
 
 @media only screen and (max-width: 600px) {
     .container {
