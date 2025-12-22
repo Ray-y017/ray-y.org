@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://ray-y.co.uk/*"
+  to = "https://ray-y.org/:splat"
+  status = 301
+  force = true
