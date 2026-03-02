@@ -4,162 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - ray-y.org</title>
+    <link rel="icon" href="media/logo.webp">
+    <link rel="stylesheet" href="styles/index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="icon" href="u/logo.webp">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300..700&display=swap" rel="stylesheet">
-
-    <title>Ray_y | ray-y.org</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="navigation">
-        <div class="left"><a href="/"><img src="u/logo.webp" style="max-width: 30px;" class="logoicon"></a></div>
-        <div class="right"><img src="u/menu.webp" height="30px" class="menu" id="menuBtn" onclick="toggleMenu()"></div>
+    <fieldset class="nav">
+        <legend class="navlegend"><span class="defaulttxt">[ <span class="secondary">ray-y.org</span> ]</span></legend>
+        <a href="/" class="selected">About</a> | <a href="/proj">Projects</a> | <a href="/technologies">Technologies</a>
+        | <a href="/contact">Contact</a>
+    </fieldset>
+
+    <div id="alertdiv" class="alertdiv" hidden>
+        <fieldset class="alert">
+            <legend>[ <span class="secondary">Alert</span> ]</legend>
+            This feature requires you to allow us to use localStorage.
+            <br>
+            Would you allow us to use localstorage?<br><br>Check our privacy policy for information<br>
+            <br>
+            [<span class="secondary"><i class="nf nf-md-keyboard_return"></i></span>] Accept &middot; [<span
+                class="secondary"><i class="nf nf-md-keyboard_esc"></i></span>] Decline
+        </fieldset>
     </div>
 
-    <div class="main">
+    <fieldset class="content">
+        <legend>[ About Me ]</legend>
+        <h2>Hey, I'm Ray.</h2>
+        <p class="biline"><b>Java</b> Dev & <b>Full Stack Web</b> Developer</p>
+        <i class="nf nf-fa-location_dot"></i> UK &middot; <i class="nf nf-cod-globe"></i> English, German
+        <br><br>
+        <hr>
 
-        <div style='float:right; width: 250px;' id="menu-items" hidden>
-            <div class="menudiv" id="menuDiv">
-                <div class="grid">
-                    <a href="https://docs.ray-y.co.uk">
-                        <div class="menuicon">
-                            <img src="u/docs.webp" height="20px">Docs
-                        </div>
-                    </a>
-                    <a href="https://docs.ray-y.co.uk/plain-txt">
-                        <div class="menuicon">
-                            <img src="u/document.webp" height="20px">Notes
-                        </div>
-                    </a>
-                    <a href="https://docs.ray-y.co.uk/whiteboard">
-                        <div class="menuicon">
-                            <img src="u/whiteboard.webp" height="20px">WB
-                        </div>
-                    </a>
-                    <a href="https://archive.ray-y.co.uk/">
-                        <div class="menuicon">
-                            <img src="u/folder.webp" height="20px">Archive
-                        </div>
-                    </a>
-                </div>
-
-
+        <div class="exp">
+            <br>
+            <h3><i class="nf nf-oct-terminal"></i> ~/experience</h3>
+            <div class="project-item">
+                <b>IT Helpdesk</b> &middot; 2025-Current
+                <br><span class="dimmed">// Apprenticeship as an it technical support agent</span>
             </div>
+            <div class="project-item">
+                <b>FruitySMP</b> &middot; 2024-Current
+                <br><span class="dimmed">// Volunteer customer service for LGBTQ+ inclusive community</span>
+            </div>
+            <br>
+            <h3><i class="nf nf-oct-terminal"></i> ~/about</h3>
+            <div class="project-item">
+                Hey, I'm Ray (also known as Ray_y), an 18-year-old Java & full-stack web dev.
+            </div>
+            <div class="project-item">
+                I've basically always have projects I have going on, usually to do with programming stuff that make my
+                life easier. I also spend a lot of time programming and messing with OSs in VMs
+            </div>
+            <div class="project-item">
+                I spend a lot of my time playing with computers. Whether
+                Raspberry PIs, Mini PCs, fixing laptops or just upgrading or messing with my own PC in general.
+            </div>
+            <br>
         </div>
 
+        <hr>
+        <a href="https://codeberg.org/Ray_y/ray-y.org">Source Code</a> &middot; <a
+            href="https://codeberg.org/Ray_y/ray-y.org/src/branch/main/COPYING">License</a> &middot; <a
+            href="/privacy">Privacy Policy + Settings</a>
+    </fieldset>
 
-        <div class="body">
-            <div class="card">
-                <div class="container">
-                    <div class="image">
-                        <img src="u/logo.webp" height="150px">
-                    </div>
-                    <div class="text">
-                        <h4 style="font-size: 19.2px;">Ray<p style="color:gray;font-size: 12px;">Software & Full-stack Web Dev, Pianist, Video
-                                Editor</p>
-                        </h3>
-                        <img src="u/work.webp" class="mini-icon" title="Work Position"> IT Helpdesk <img
-                            src="u/birthday.webp" class="mini-icon" title="Birthday"> 1st July<br><img
-                            src="u/speak.webp" class="mini-icon" title="Languages"> English, German <img
-                            src="u/location.webp" class="mini-icon" title="Location"> UK
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr class="ab">
-                <h3>About me</h3>
-                <p>Hey, I'm Ray (also known as Ray_y), an 18-year-old full-stack web and Java developer.<br>I own a
-                    Minecraft Server called TangoNet and am a moderator on FruitySMP.<br>On this site you'll find
-                    information about me like my interests, what I use for projects and more.</p>
-
-                <h3>Interests</h3>
-                <p>Below is listed some of my interests</p>
-                <div class="interest-container">
-                    <p class="interest">Cybersecurity</p>
-                    <p class="interest">Undertale</p>
-                    <p class="interest">Minecraft</p>
-                    <p class="interest">Software Development</p>
-                    <p class="interest">Operating Systems</p>
-                    <p class="interest">3D Modelling</p>
-                    <p class="interest">Video Editing</p>
-                    <p class="interest">Chess</p>
-                </div>
-
-
-                </p>
-                <h3>Tools</h3>
-                <p>These are the tools I use almost daily to help with my projects</p>
-                <p class="marquee">
-                    <span>
-                        <img src="u/linux.webp" height="100px"> <img src="u/lightworks.webp" height="100px"> <img
-                            src="u/intellij.webp" height="100px"> <img src="u/vsc.webp" height="100px"> <img
-                            src="u/audacity.webp" height="100px"> <img src="u/anyrun.webp" height="100px">
-                        <img src="u/vscodium.webp" height="100px">
-                    </span>
-                </p>
-
-                <h3>Socials</h3>
-                <div class="socials">
-                    <div class="social-acc"><a href="https://www.youtube.com/@Ray_y017"><img src="u/ytb.webp"
-                                height="40px" class="social-a"></a></div>
-                    <div class="social-acc"><a href="https://www.tiktok.com/@raythegay__"><img src="u/tt.webp"
-                                height="40px" class="social-a"></a></div>
-                    <div class="social-acc"><a href="https://www.chess.com/member/ray_y018"><img src="u/chess.webp"
-                                height="40px" class="social-a"></a></div>
-                    <div class="social-acc"><a href="https://www.reddit.com/user/PoolWonderful627/"><img
-                                src="u/red.webp" height="40px" class="social-a"></a></div>
-                    <div class="social-acc"><a href="https://github.com/Ray-y017"><img src="u/gh.webp" height="40px"
-                                class="social-a"></a></div>
-                    <div class="social-acc"><a href="https://codeberg.org/Ray_y"><img src="u/cb.webp" height="40px"
-                                class="social-a"></a></div>
-                </div>
-                <h3>Portfolios</h3>
-                <p>Browse through previous and current projects that I've / I'm working on!</p>
-                <div class="portfolios">
-                    <a href="/portfolio/web.html"><button class="portfolio-button">Websites</button></a>
-                    <a href="/portfolio/mc-plugins.html"><button class="portfolio-button">Plugins</button></a>
-                    <a href="https://apps.ray-y.co.uk"><button class="portfolio-button">Applications</button></a>
-                    <a href="https://editor.ray-y.co.uk/"><button class="portfolio-button">Video Editing</button></a>
-                </div>
-                <h3>Languages</h3>
-                <p>Wonder what languages I use for projects?</p>
-                <p class="marquee">
-                    <span>
-                        <img src="u/html-5.webp" height="100px"> <img src="u/css-3.webp" height="100px"> <img
-                            src="u/js.webp" height="100px"> <img src="u/nodejs.webp" height="100px"> <img
-                            src="u/c-sharp.webp" height="100px"> <img src="u/java.webp" height="100px">
-                    </span>
-                </p>
-                <br>
-                <div class="footer">
-                    <div class="footer-img"><img src="u/logo-large.webp" height="75px"></div>
-                    <span class="head">Ray_y</span>
-                    <hr>
-                    <a href="/">Home</a> <a href="https://codeberg.org/Ray_y/ray-y.org">Source</a> <a
-                        href="contact.html">Contact</a> <a href="legal/privacy.html">Privacy Policy</a> <a
-                        href="https://osp.ray-y.org">Open Source</a>
-                    <br><br>
-                    <div>Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a
-                            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-                    <span style="color: rgb(79, 69, 214);">ray-y.org &copy; 2025-2026 Ray Dunn</span>
-                    <p>This website is licensed under the terms of GPL-2.0</p>
-                    <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</a>
-
-                </div>
-            </div>
-
+    <div class="utils">
+        <div class="left">
+            [ <span class="secondary"><i class="nf nf-md-arrow_left_thin"></i></span> + <span class="secondary"><i
+                    class="nf nf-md-arrow_right_thin"></i></span> ] Navigate Tabs</i>
         </div>
+        <div class="right">
+            [ <span class="secondary"><i class="nf nf-md-arrow_up_thin"></i></span> + <span class="secondary"><i
+                    class="nf nf-md-arrow_down_thin"></i></span> ] Change Terminal Theme</i>
+        </div>
+    </div>
 
 </body>
-<script src="script/menu.js"></script>
-
-<!-- Site made by humans, for humans. -->
-<!-- https://ray-y.co.uk/stance-on-genai -->
+<script src="script/global.js"></script>
 
 </html>

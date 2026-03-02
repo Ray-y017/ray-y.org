@@ -1,0 +1,177 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+:root, [data-theme="1"] {
+    --backcolor: #161616;
+    --selectioncolor: #868af6;
+}
+[data-theme="2"] { --backcolor: #1e2122; --selectioncolor: #77b2b4; }
+[data-theme="3"] { --backcolor: #14121d; --selectioncolor: #e6aaa7; }
+[data-theme="4"] { --backcolor: #181825; --selectioncolor: #7bbbf9; }
+[data-theme="5"] { --backcolor: #000000; --selectioncolor: lime }
+[data-theme="6"] { --backcolor: #282828; --selectioncolor: #a48a66; }
+[data-theme="7"] { --backcolor: #011627; --selectioncolor: #ffffff; }
+[data-theme="8"] { --backcolor: #300a24; --selectioncolor: #dddada; }
+
+
+body {
+    background-color: var(--backcolor);
+    padding: 15px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.nav {
+    text-align: center;
+    align-items: center;
+    border: 1px solid #a9a9a9;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+}
+
+legend {
+    display: table;
+    min-width: 0px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.nav .selected {
+    color: var(--selectioncolor);
+}
+
+.nav a {
+    text-decoration: none;
+    color: #b9b9b9;
+}
+
+.content {
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(169, 169, 169);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    min-height: 60vh;
+    min-width: 0;
+}
+
+.utils {
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    min-width: 0;
+    font-family: "Source Code Pro", monospace;
+}
+
+.utils .left {
+    float: left;
+}
+
+.utils .right {
+    float: right;
+}
+
+.exp {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content a {
+    text-decoration: none;
+    color: gray;
+}
+
+.project {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.alert {
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(169, 169, 169);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    min-width: 0;
+}
+
+.alertdiv {
+    background-color: var(--backcolor);
+    left: 0;
+    top: 35vh;
+    position: fixed;
+    width: 100%;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.secondary {
+    color: var(--selectioncolor);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 1px;
+    }
+
+    .nav {
+        padding: 10px 20px;
+        max-width: 85%;
+    }
+
+    .content {
+        max-width: 85%;
+        height: auto;
+    }
+
+    .exp {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .utils {
+        display: none;
+    }
+}
+
+.project-item {
+    margin-bottom: 8px;
+}
+
+.project-item a {
+    color: var(--selectioncolor);
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+.contact-row a {
+    color: var(--selectioncolor);
+}
+
+.contact-row a:hover {
+    text-decoration: underline;
+}
+
+.dimmed {
+    color:gray;
+}

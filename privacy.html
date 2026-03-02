@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Settings and Policy. - ray-y.org</title>
+    <link rel="icon" href="media/logo.webp">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="alertdiv" class="alertdiv" hidden>
+        <fieldset class="alert">
+            <legend>[ <span class="secondary">Alert</span> ]</legend>
+            This feature requires you to allow us to use localStorage.
+            <br>
+            Would you allow us to use localstorage?<br><br>Check our privacy policy for information<br>
+            <br>
+            [<span class="secondary"><i class="nf nf-md-keyboard_return"></i></span>] Accept &middot; [<span
+                class="secondary"><i class="nf nf-md-keyboard_esc"></i></span>] Decline
+        </fieldset>
+    </div>
+    <fieldset class="nav">
+        <legend class="navlegend"><span class="defaulttxt">[ <span class="secondary">ray-y.org</span> ]</span></legend>
+        <a href="/">About</a> | <a href="/proj">Projects</a> | <a href="/technologies">Technologies</a>
+        | <a href="/contact">Contact</a>
+    </fieldset>
+
+    <fieldset class="content">
+        <legend>[ Privacy Policy and Privacy Settings ]</legend>
+        <b>Settings:</b><br>
+        <a style="color:red;text-decoration: none;cursor:pointer" onclick="revokeConsent()">Revoke localStorage
+            Consent</a>
+        <hr>
+        <b>Privacy Policy</b>
+        <p>Last Updated: 18 Feb. 2026</p>
+        <p>We at ray-y.org, consider privacy to be a fundamental human right. This policy outlines your data
+            protection and transparency. By using this website, you agree to the terms described in this policy.</p>
+
+        <b>Your Data & Sharing</b>
+        <p>We do not sell or share your personal data with third parties. We only store
+            information that you have given us consent to, such as a theme preference.</p>
+
+        <b>localStorage & Personalization</b>
+        <p>We use localStorage to store data on your browser, allowing your preference to continue between
+            sessions and page changes. We may store, with your permission, theme preferences when you interact with our theme selector. </p>
+        <p>This data is processed only with your consent (Art. 6(1)(a) GDPR). Your preferences remain on your
+            device until you manually clear your browser cache or use our "Revoke localStorage Consent" function.</p>
+        <p>When you first interact with our theme selector, you have a choice to give us permission to use localStorage.
+            We will only store this data if you give us your explicit consent. </p>
+
+        <b>Your Rights</b>
+        <p>Under the GDPR, you have the right to access your stored preferences, request their erasure, or withdraw your
+            consent at any time. Since this data is stored locally, you can exercise these rights instantly by clearing
+            your browser data.</p>
+        <p>We aim to follow all privacy laws. If you have concerns, please contact us. You also have the right to
+            contact your local data protection authority.</p>
+
+        <b>Hosting & Technical Logging</b>
+        <p>This site is hosted by Netlify.</p>
+        <p>Because Netlify is a global provider, technical data may be processed on servers outside of the EEA in
+            accordance with the Netlify Privacy Policy: https://www.netlify.com. You must consent to Netlify's privacy policy before using this site.</p>
+
+        <b>Open Source</b>
+        <p>We believe that security requires the ability to know what the platform you use is doing. In alignment with this,
+            the source code for ray-y.org is available on our respository on Codeberg.</p>
+        <br>
+        <hr>
+        <p>This program is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+            GNU General Public License for more details.</p>
+
+
+
+    </fieldset>
+    <div class="utils">
+        <div class="right">
+            [ <span class="secondary"><i class="nf nf-md-arrow_up_thin"></i></span> + <span class="secondary"><i
+                    class="nf nf-md-arrow_down_thin"></i></span> ] Change Terminal Theme</i>
+        </div>
+    </div>
+</body>
+<script src="script/global.js"></script>
+
+</html>
