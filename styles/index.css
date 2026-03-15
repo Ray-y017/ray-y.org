@@ -214,6 +214,7 @@ legend {
 
 [data-tooltip]::after {
     content: attr(data-tooltip);
+    font-family: "Source Code Pro", monospace;
     position: absolute;
     bottom: 125%;
     left: 50%;
