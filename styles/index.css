@@ -1,15 +1,45 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
-:root, [data-theme="1"] {
+
+:root,
+[data-theme="1"] {
     --backcolor: #161616;
     --selectioncolor: #868af6;
 }
-[data-theme="2"] { --backcolor: #1e2122; --selectioncolor: #77b2b4; }
-[data-theme="3"] { --backcolor: #14121d; --selectioncolor: #e6aaa7; }
-[data-theme="4"] { --backcolor: #181825; --selectioncolor: #7bbbf9; }
-[data-theme="5"] { --backcolor: #000000; --selectioncolor: lime }
-[data-theme="6"] { --backcolor: #282828; --selectioncolor: #a48a66; }
-[data-theme="7"] { --backcolor: #011627; --selectioncolor: #ffffff; }
-[data-theme="8"] { --backcolor: #300a24; --selectioncolor: #dddada; }
+
+[data-theme="2"] {
+    --backcolor: #1e2122;
+    --selectioncolor: #77b2b4;
+}
+
+[data-theme="3"] {
+    --backcolor: #14121d;
+    --selectioncolor: #e6aaa7;
+}
+
+[data-theme="4"] {
+    --backcolor: #181825;
+    --selectioncolor: #7bbbf9;
+}
+
+[data-theme="5"] {
+    --backcolor: #000000;
+    --selectioncolor: lime
+}
+
+[data-theme="6"] {
+    --backcolor: #282828;
+    --selectioncolor: #a48a66;
+}
+
+[data-theme="7"] {
+    --backcolor: #011627;
+    --selectioncolor: #ffffff;
+}
+
+[data-theme="8"] {
+    --backcolor: #300a24;
+    --selectioncolor: #dddada;
+}
 
 
 body {
@@ -121,9 +151,10 @@ legend {
     top: 35vh;
     position: fixed;
     width: 100%;
-    padding-top:50px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .secondary {
     color: var(--selectioncolor);
 }
@@ -147,6 +178,7 @@ legend {
         margin-left: 5%;
         margin-right: 5%;
     }
+
     .utils {
         display: none;
     }
@@ -173,5 +205,30 @@ legend {
 }
 
 .dimmed {
-    color:gray;
+    color: gray;
+}
+
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #212121;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out;
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    visibility: visible;
 }
