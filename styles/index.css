@@ -62,25 +62,24 @@ body {
 }
 
 .head {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 20px;
-  margin-left: 20%;
-  margin-right: 20%;
-  text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
 }
 
 .head-text {
-  flex: 1;
-  text-align: right;
+    flex: 1;
+    text-align: right;
 }
 
 .head-img {
-  width: 110px;
-  height: 110px;
-
-  flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
 }
 
 legend {
@@ -204,22 +203,23 @@ legend {
     .utils {
         display: none;
     }
+
     .head {
-    margin-left: 5%;
-    margin-right: 5%;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-.head-text {
-    text-align: center;
-}
+    .head-text {
+        text-align: center;
+    }
 
-.head-img {
-    width: 80px;
-    height: 80px;
-}
+    .head-img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .project-item {
