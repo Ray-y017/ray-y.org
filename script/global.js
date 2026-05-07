@@ -78,3 +78,12 @@ function revokeConsent() {
     alert("Preferences and consent have been removed.");
     location.reload();
 }
+
+
+window.addEventListener('load', function () {
+    const preloader = document.getElementById('preloaddiv');
+    preloader.classList.add('pldanim');
+    setTimeout(() => {
+        preloader.style.display = 'none';
+    }, 500); 
+});
