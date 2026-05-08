@@ -113,6 +113,10 @@ legend {
     min-width: 0;
 }
 
+i {
+    color:var(--selectioncolor)
+}
+
 .utils {
     text-align: center;
     align-items: center;
