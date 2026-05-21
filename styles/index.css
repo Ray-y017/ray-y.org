@@ -342,3 +342,8 @@ i {
         background-color: #363636;
     }
 }
+
+.warn {
+    border-left: var(--selectioncolor) solid 2px;
+    padding-left: 10px;
+}
