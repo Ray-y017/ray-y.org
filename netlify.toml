@@ -3,3 +3,7 @@
   to = "https://ray-y.org/:splat"
   status = 301
   force = true
+
+[[edge_functions]]
+  path = "/*"
+  function = "curl"

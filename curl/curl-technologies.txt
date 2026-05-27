@@ -1,0 +1,15 @@
+
+┌─────────────────[ ray-y.org - CURL ]─────────────────┐
+│    [/index]  [/proj]  [/technologies]  [/contact]    │
+└──────────────────────────────────────────────────────┘
+
+┌────────────[ Technologies - technologies ]───────────┐
+│   ~/websites                                         │
+│   HTML, CSS and JS                                   │
+│                                                      │
+│   ~/backend                                          │
+│   NodeJS                                             │
+│                                                      │
+│   ~/object-oriented                                  │
+│   Java, Python                                       │
+└──────────────────────────────────────────────────────┘

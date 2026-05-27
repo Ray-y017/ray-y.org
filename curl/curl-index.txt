@@ -1,0 +1,38 @@
+
+┌─────────────────[ ray-y.org - CURL ]─────────────────┐
+│    [/index]  [/proj]  [/technologies]  [/contact]    │
+└──────────────────────────────────────────────────────┘
+
+┌───────────────────[ ABOUT - index ]──────────────────┐
+│   Hey, I'm Ray.                                      │
+│   Java Dev + Full stack Web Developer.               │
+│                                                      │
+│   Based in UK  -  Speaks English and German          │
+│                                                      │
+│   ~/experience                                       │
+│   │ Info has been anonymized. See CV if you're an    │
+│   │ employer.                                        │
+│                                                      │
+│    IT Helpdesk - 2025-Present                        │
+│    // Appr. as an it tech support agent              │
+│                                                      │
+│    FruitySMP - 2024-Present                          │
+│    // Volunteer Moderator for an LGBTQ+ community    │
+│                                                      │
+│   ~/about                                            │
+│    Hey, I'm Ray (also known as Ray_y), an 18 year    │
+│    old Java & full-stack web dev. I've basically     │
+│    always have projects I have going on, usually to  │
+│    do with programming stuff that make my life       │
+│    easier. I also spend a lot of time programming    │
+│    and messing with OSs in VMs                       │
+│    I spend a lot of my time messing with computers.  │
+│    Whether Raspberry PIs, Mini PCs, fixing laptops   │
+│    or just upgrading or messing with my own PC       │
+│    in general.                                       │
+└──────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────┐
+│ A little note, this site isn't really functional in  │
+│ CURL mode, I just thought this was cool and fitted w/│
+│ the theme of the website and I simply could. GLHF!   │
+└──────────────────────────────────────────────────────┘

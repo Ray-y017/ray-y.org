@@ -1,0 +1,32 @@
+
+┌─────────────────[ ray-y.org - CURL ]─────────────────┐
+│    [/index]  [/proj]  [/technologies]  [/contact]    │
+└──────────────────────────────────────────────────────┘
+
+┌──────────────────[ Projects - proj ]─────────────────┐
+│   ~/websites                                         │
+│   docs.ray-y.co.uk                                   │
+│   // FOSS document site                              │
+│                                                      │
+│   archive.ray-y.co.uk                                │
+│   // Archival site for my projects + more            │
+│                                                      │
+│   plugindocs.ray-y.co.uk                             │
+│   // Documenation for my Minecraft Plugins           │
+│                                                      │
+│   ~/minecraft-plugins                                │
+│   RandomTopic                                        │
+│   // Generates Random Topics from a list             │
+│                                                      │
+│   Vulcan Punishments+                                │
+│   // Vulcan AntiCheat Addon for Tiered Punishments   │
+│                                                      │
+│   ~/apps                                             │
+│   Ray's Autoclicker 2                                │
+│   // Windows Autoclicker                             │
+│                                                      │
+│   ~/other                                            │
+│   daily-image-api                                    │
+│   //  A WIP self host-able API to serve an           │
+│   // image that changes daily.                       │
+└──────────────────────────────────────────────────────┘

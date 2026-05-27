@@ -1,0 +1,15 @@
+
+┌─────────────────[ ray-y.org - CURL ]─────────────────┐
+│    [/index]  [/proj]  [/technologies]  [/contact]    │
+└──────────────────────────────────────────────────────┘
+
+┌─────────────────[ Contact - contact ]────────────────┐
+│                                                      │
+│ If you wish to contact me, you can use the following │
+│                                                      │
+│   ~/socials                                          │
+│   ray@ray-y.org // Email                             │
+│   @ray_y:matrix.org // Matrix                        │
+│   @ray_y018 // Discord                               │
+│                                                      │
+└──────────────────────────────────────────────────────┘
