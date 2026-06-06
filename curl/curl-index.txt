@@ -22,15 +22,23 @@
 │                                                      │
 │   ~/about                                            │
 │    Hey, I'm Ray (also known as Ray_y), an 18 year    │
-│    old Java & full-stack web dev. I've basically     │
-│    always have projects I have going on, usually to  │
-│    do with programming stuff that make my life       │
-│    easier. I also spend a lot of time programming    │
-│    and messing with OSs in VMs                       │
-│    I spend a lot of my time messing with computers.  │
-│    Whether Raspberry PIs, Mini PCs, fixing laptops   │
-│    or just upgrading or messing with my own PC       │
-│    in general.                                       │
+│   Java & full-stack web dev. I've been doing         │
+│   programming in my free time for many years now.    │
+│   I've always loved and found interesting how        │
+│   software worked. Because of my interest with how   │
+│   the software I interacted with every day, it was   │
+│   only natural for me to actually.. make software.   │
+│                                                      │
+│   Over the past many years, I've found myself making │
+│   software I use on a daily basis, replacing other   │
+│   companies solutions with ones that fit my own      │
+│   needs better.                                      │
+│                                                      │
+│   I also have interests in many other things         │
+│   outside of software. I like to solder, work on my  │
+│   homelab and more. I'm also a pianist, music lover, │
+│   cybersecurity enthusiast and video editor among    │
+│   other things.                                      │
 └──────────────────────────────────────────────────────┘
 ┌──────────────────────────────────────────────────────┐
 │ A little note, this site isn't really functional in  │
