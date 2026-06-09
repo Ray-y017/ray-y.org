@@ -1,12 +1,33 @@
 # ray-y.org
-## Welcome to the ray-y.org repository
-This repository is the source code of the ray-y.org site.
 
-This repo is up to date with the latest version of the website.
+This repository provides the source code for the site at ray-y.org.
 
-Issues and PRs are appreciated.
+Pull requests and issues are allowed.
 
-This is the main repository for ray-y.org, however we have a github mirror:
+The main active repository for the site is on Codeberg.
 
-Github Mirror:
-- https://github.com/Ray-y017/ray-y.org
+The Github repository is a mirror of the Codeberg repo.
+
+## If you are on Codeberg
+
+You are on the main repository. Issues and PRs will be answered ASAP (Checked mostly daily.)
+
+## If you are on Github:
+
+You can create pull requests and issues, but responses may not be as fast.
+
+You can visit the codeberg repo at: https://codeberg.org/Ray_y/ray-y.org for faster responses and the main repo.
+
+## Links:
+
+Codeberg Repo: https://codeberg.org/Ray_y/ray-y.org
+
+Github Mirror Repo: https://github.com/Ray-y017/ray-y.org
+
+Site Link: https://ray-y.org
+
+## License
+
+Code in this repo is licensed under GPL-2.
+
+Check COPYING for a copy of the GPL 2 license.
