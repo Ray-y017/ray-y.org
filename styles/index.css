@@ -344,6 +344,8 @@ i {
   gap: 20px;
   transition: opacity 0.5s;
   opacity: 1;
+
+  animation: no-js 10s forwards;
 }
 .pldanim {
   opacity: 0;
@@ -352,6 +354,14 @@ i {
 
 .preloaddiv h1 {
   color: white;
+}
+
+@keyframes no-js {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
 
 .loader {
