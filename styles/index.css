@@ -396,3 +396,16 @@ i {
   border-left: var(--selectioncolor) solid 2px;
   padding-left: 10px;
 }
+
+.badgelink {
+  background-color: var(--selectioncolor);
+  color: var(--backcolor);
+  min-width: 334px;
+  min-height: 54px;
+}
+
+.badgesmarquee {
+  border: 1px solid var(--selectioncolor);
+  border-radius: 3px;
+  padding: 5px;
+}
