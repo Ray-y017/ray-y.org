@@ -3,8 +3,8 @@ let localStorageAlertShown = false;
 let theme = Number(localStorage.getItem('savedTheme')) || 1;
 
 const pages = ["index.html", "proj", "technologies", "contact", "blabbering"];
-const path = window.location.pathname.split("/").pop();
-const currentFile = path === "" ? "index.html" : path;
+const path = window.location.pathname.split("/").filter(Boolean);
+const currentFile = path.length === 0 ? "index.html" : path[path.length - 1];
 
 let currentPageIndex = pages.indexOf(currentFile);
 if (currentPageIndex === -1) currentPageIndex = 0;
