@@ -2,7 +2,7 @@ let localStorageAllowed = localStorage.getItem('consent') === 'true';
 let localStorageAlertShown = false;
 let theme = Number(localStorage.getItem('savedTheme')) || 1;
 
-const pages = ["index.html", "proj", "technologies", "contact"];
+const pages = ["index.html", "proj", "technologies", "contact", "blabbering/"];
 const path = window.location.pathname.split("/").pop();
 const currentFile = path === "" ? "index.html" : path;
 

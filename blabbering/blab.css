@@ -1,0 +1,44 @@
+.article {
+    text-align: left;
+    border-top: 3px solid gray;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.post-meta time {
+    font-size: 0.8rem;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.user {
+    color: green;
+}
+
+.post-image-wrapper {
+    max-width: 500px;
+
+    padding: 15px;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.post-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .log-post {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .post-image-wrapper {
+        flex: 1 1 auto;
+        width: 90%;
+        max-width: 100%;
+    }
+}
