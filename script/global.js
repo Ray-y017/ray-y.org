@@ -38,7 +38,7 @@ document.addEventListener("keyup", (event => {
     else if (event.key === "ArrowLeft") {
         if (pages.includes(currentFile)) {
             let prev = (currentPageIndex - 1 + pages.length) % pages.length;
-            window.location.href = pages[prev]; 
+            window.location.href = "/" + pages[prev];
         }
     }
 
