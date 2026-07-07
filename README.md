@@ -26,7 +26,7 @@ Github Mirror Repo: https://github.com/Ray-y017/ray-y.org
 
 Site Link: https://ray-y.org
 
-TOR Link: rzaigzm3lh2sesbqhmecuagbqddzflrry3ulf4zeiscfbxtlxwztxkqd.onion 
+TOR Link: http://rzaigzm3lh2sesbqhmecuagbqddzflrry3ulf4zeiscfbxtlxwztxkqd.onion 
 
 ## License
 
