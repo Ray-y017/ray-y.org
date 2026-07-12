@@ -1,4 +1,4 @@
-# ray-y.org
+# [ray-y.org](https://ray-y.org/)
 
 This repository provides the source code for the site at ray-y.org.
 
