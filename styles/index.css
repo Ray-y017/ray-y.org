@@ -408,8 +408,9 @@ i {
 }
 
 .badgelink {
-  background-color: var(--selectioncolor);
-  color: var(--backcolor);
+  background-color: var(--backcolor);
+  border: 1px solid var(--selectioncolor);
+  color: var(--selectioncolor);
   min-width: 334px;
   min-height: 54px;
 }
